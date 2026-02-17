@@ -16,9 +16,9 @@ const Venue = () => {
           backgroundPosition: "center",
         }}
       >
-        <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
+        <h2 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
           Our Venue
-        </h1>
+        </h2>
       </div>
 
       {/* Intro Section (SAME PATTERN AS ORATORS INTRO) */}

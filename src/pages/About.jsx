@@ -130,9 +130,9 @@ const AboutPublicHealth = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4 z-10">
+        <h2 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4 z-10">
           {data.event.title}
-        </h1>
+        </h2>
       </div>
 
       <h1 className="text-4xl mt-2 font-bold text-one">
