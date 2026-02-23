@@ -1,5 +1,6 @@
-import { Facebook, Twitter, Instagram, Youtube, Linkedin } from "lucide-react";
-import {FaReddit} from "react-icons/fa"
+import { Facebook, Instagram, Youtube, Linkedin } from "lucide-react";
+import { FaReddit } from "react-icons/fa"
+import { FaXTwitter } from "react-icons/fa6";
 
 
 //Social Links
@@ -15,7 +16,7 @@ export const socialLinks = [
     id: "twitter",
     name: "Twitter (X)",
     url: "https://x.com/Helixconfe69272",
-    icon: <Twitter size={18} />,
+    icon: <FaXTwitter size={18} />,
   },
   {
     id: "instagram",

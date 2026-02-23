@@ -1,4 +1,4 @@
-import { Sparkles} from "lucide-react";
+import { Sparkles } from "lucide-react";
 import React from "react";
 // import { Link } from "react-router-dom";
 import silver from "../assets/badges/silver.png"
@@ -69,7 +69,7 @@ const last_item = [
       ],
       ["Leaflet in delegate bags",
         "Online promotion on all social platforms",
-       "5% waiver for next year",
+        "5% waiver for next year",
         "Product recognition on global website",
         "B2B meeting opportunities",],
       [
@@ -87,14 +87,14 @@ const last_item = [
 const SponsorshipPackages = () => {
   return (
     <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
-    <div
-  className={`${banner_style} w-full mx-auto event-partners-banner`}
-  style={{
-    backgroundImage: `url(${event})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
->
+      <div
+        className={`${banner_style} w-full mx-auto event-partners-banner`}
+        style={{
+          backgroundImage: `url(${event})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
 
         <h1 className="text-slate-100 text-3xl sm:text-5xl md:text-6xl font-bold px-4">
           Sponsorship Packages
@@ -103,7 +103,7 @@ const SponsorshipPackages = () => {
       {/* <p className="text-center text-gray-600 mb-12">
         18th Global Medical Conclave | 25–27 Nov 2025 | Valencia, Spain
       </p> */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-2 md:mx-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-4 md:mx-12">
         {sponsorshipPackages.map((pkg) => (
           <div
             key={pkg.type}
@@ -143,7 +143,7 @@ const SponsorshipPackages = () => {
         ))}
       </div>
 
-      <div className="my-12 mx-2 md:mx-32">
+      <div className="my-12 mx-4 md:mx-32">
         {last_item.map((pkg) => (
           <div
             key={pkg.type}

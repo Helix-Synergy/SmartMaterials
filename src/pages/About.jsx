@@ -25,24 +25,24 @@ const data = {
     organizer: "Helix Conferences",
     description: [
       <>
-  
-The <Link to="/smartmaterials-orators" className="
+
+        The <Link to="/smartmaterials-orators" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
- Smart Materials, Nanotech & Advanced Manufacturing Congress, </Link>organized by Helix Conferences, is a distinguished international forum dedicated to advancing smart materials research, nanotechnology innovations, and next-generation manufacturing techniques that enhance productivity, sustainability, and industrial competitiveness.
-The congress is designed to facilitate high-level knowledge exchange, interdisciplinary collaboration, and evidence-based discussions that accelerate the adoption of innovative materials and advanced manufacturing solutions. Emphasis is placed on nanomaterials, additive manufacturing, precision engineering, materials characterization, smart composites, and sustainable industrial processes.
-Through plenary sessions, keynote addresses, expert-led panels, technical workshops, and research presentations, participants will gain strategic insights into emerging technologies, scalable industrial applications, and evolving global manufacturing policies.
-<Link to="/about-smartmaterials"className="
+          Smart Materials, Nanotech & Advanced Manufacturing Congress, </Link>organized by Helix Conferences, is a distinguished international forum dedicated to advancing smart materials research, nanotechnology innovations, and next-generation manufacturing techniques that enhance productivity, sustainability, and industrial competitiveness.
+        The congress is designed to facilitate high-level knowledge exchange, interdisciplinary collaboration, and evidence-based discussions that accelerate the adoption of innovative materials and advanced manufacturing solutions. Emphasis is placed on nanomaterials, additive manufacturing, precision engineering, materials characterization, smart composites, and sustainable industrial processes.
+        Through plenary sessions, keynote addresses, expert-led panels, technical workshops, and research presentations, participants will gain strategic insights into emerging technologies, scalable industrial applications, and evolving global manufacturing policies.
+        <Link to="/about-smartmaterials" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
- </Link>
- 
-      
+        </Link>
+
+
       </>,
       <>
         {/* From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "} */}
         <Link
-          to= "/smartmaterials-conference-tracks/"
+          to="/smartmaterials-conference-tracks/"
           target="blank"
           rel="noopener noreferrer"
           className="text-accent font-bold"
@@ -57,53 +57,53 @@ Through plenary sessions, keynote addresses, expert-led panels, technical worksh
       // linkText: "Microbiome Science",
       // link: "/",
       suffix:
-       "Join global leaders and innovators in shaping the future of manufacturing through smart materials, nanotechnology, and advanced production excellence..",
+        "Join global leaders and innovators in shaping the future of manufacturing through smart materials, nanotechnology, and advanced production excellence..",
     },
   ],
-highlights: [
-  {
-    title: "Distinguished Keynote Speakers",
-    description:
-      "Engage with internationally recognized experts and thought leaders in smart materials, nanotechnology, and advanced manufacturing innovations.",
-  },
-  {
-    title: "Technical Workshops & Expert Sessions",
-    description:
-      "Participate in in-depth sessions on nanomaterials, additive manufacturing, precision engineering, sustainable processes, and smart industrial applications.",
-  },
-  {
-    title: "Innovation & Technology Exhibition",
-    description:
-      "Discover cutting-edge manufacturing technologies, smart materials solutions, nanotechnology innovations, and next-generation industrial systems.",
-  },
-  {
-    title: "Strategic Networking Opportunities",
-    description:
-      "Build meaningful connections with global stakeholders across academia, industry, government, and investment sectors.",
-  },
-  {
-    title: "Materials Science & Industrial Innovation Focus",
-    description:
-      "Gain insights into emerging frameworks, sustainable production methods, and advanced materials solutions driving industrial transformation.",
-  },
-  {
-    title: "Scientific & Market Intelligence",
-    description:
-      "Explore the latest research findings, market trends, and commercialization pathways in smart materials, nanotechnology, and advanced manufacturing.",
-    linkText: "View event schedule",
-    link: "/smartmaterials-event-schedule",
-  },
-  {
-    title: "Collaboration & Partnership Platforms",
-    description:
-      "Foster cross-sector partnerships to advance research, innovation, and scalable industrial solutions.",
-  },
-  {
-    title: "Professional Development & Accreditation",
-    description:
-      "Earn professional development recognition through certified learning sessions, technical workshops, and industry-focused training programs.",
-  },
-],
+  highlights: [
+    {
+      title: "Distinguished Keynote Speakers",
+      description:
+        "Engage with internationally recognized experts and thought leaders in smart materials, nanotechnology, and advanced manufacturing innovations.",
+    },
+    {
+      title: "Technical Workshops & Expert Sessions",
+      description:
+        "Participate in in-depth sessions on nanomaterials, additive manufacturing, precision engineering, sustainable processes, and smart industrial applications.",
+    },
+    {
+      title: "Innovation & Technology Exhibition",
+      description:
+        "Discover cutting-edge manufacturing technologies, smart materials solutions, nanotechnology innovations, and next-generation industrial systems.",
+    },
+    {
+      title: "Strategic Networking Opportunities",
+      description:
+        "Build meaningful connections with global stakeholders across academia, industry, government, and investment sectors.",
+    },
+    {
+      title: "Materials Science & Industrial Innovation Focus",
+      description:
+        "Gain insights into emerging frameworks, sustainable production methods, and advanced materials solutions driving industrial transformation.",
+    },
+    {
+      title: "Scientific & Market Intelligence",
+      description:
+        "Explore the latest research findings, market trends, and commercialization pathways in smart materials, nanotechnology, and advanced manufacturing.",
+      linkText: "View event schedule",
+      link: "/smartmaterials-event-schedule",
+    },
+    {
+      title: "Collaboration & Partnership Platforms",
+      description:
+        "Foster cross-sector partnerships to advance research, innovation, and scalable industrial solutions.",
+    },
+    {
+      title: "Professional Development & Accreditation",
+      description:
+        "Earn professional development recognition through certified learning sessions, technical workshops, and industry-focused training programs.",
+    },
+  ],
 
 
 
@@ -136,7 +136,7 @@ const AboutPublicHealth = () => {
       </div>
 
       <h1 className="text-4xl mt-2 font-bold text-one">
-Fostering Collaboration Driving Advanced Manufacturing Impact
+        Fostering Collaboration Driving Advanced Manufacturing Impact
       </h1>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
@@ -147,21 +147,21 @@ Fostering Collaboration Driving Advanced Manufacturing Impact
       {data.event.description.map((desc, idx) => (
         <p
           key={idx}
-          className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+          className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px-4 md:px-12 lg:px-24"
         >
           {desc}
         </p>
       ))}
 
       {/* Join Section */}
-      <section className="mb-10 text-center w-full min-w-4xl px-2 md:px-12 lg:px-24">
+      <section className="mb-10 text-center w-full min-w-4xl px-4 md:px-12 lg:px-24">
         <h2 className="text-3xl font-bold text-one mb-4 w-full">
           Join the Global Community at on SMARTMATERIALS-2026
         </h2>
         {data.join.map((para, idx) => (
           <p
             key={idx}
-            className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+            className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px-4 md:px-12 lg:px-24"
           >
             {para.text} <Link to={para.link}>{para.linkText}</Link>
             {para.suffix}
@@ -176,25 +176,25 @@ Fostering Collaboration Driving Advanced Manufacturing Impact
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <User className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-Materials Scientists and Nanotechnology Researchers
+              Materials Scientists and Nanotechnology Researchers
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <BookOpen className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-Advanced Manufacturing and Industrial Engineering Professionals
+              Advanced Manufacturing and Industrial Engineering Professionals
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <Rocket className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-AI, Data Analytics, and Smart Manufacturing Experts
+              AI, Data Analytics, and Smart Manufacturing Experts
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <PackageSearch className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-   Industry Leaders, Innovators, and Policy Makers
+              Industry Leaders, Innovators, and Policy Makers
             </h3>
           </div>
         </div>
@@ -203,22 +203,22 @@ AI, Data Analytics, and Smart Manufacturing Experts
       {/* Highlights Section */}
       <section className="mb-16 text-center w-full px-12">
         <h2 className="text-4xl font-bold text-one mb-8">Event Highlights</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full items-start">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
           {data.highlights.map((highlight, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-xl p-4 text-md text-gray-800 text-left flex items-start shadow-sm "
+              className="bg-white rounded-xl p-6 text-md text-gray-800 text-left flex items-start shadow-sm h-full hover:shadow-md transition-shadow duration-300"
             >
-              <Star className="w-4 h-4 text-yellow-500 fill-yellow-500 mr-3 mt-1" />
-              <div className="flex flex-wrap items-start">
-                <h3 className="font-semibold whitespace-nowrap mr-1">
-                  {highlight.title} –
-                </h3>
-                <p className="text-md text-gray-600 flex-1">
+              <Star className="w-5 h-5 text-yellow-500 fill-yellow-500 mr-3 mt-1 shrink-0" />
+              <div className="flex flex-col">
+                <p className="text-md text-gray-600 text-justify">
+                  <span className="font-bold text-gray-900 mr-1">
+                    {highlight.title} –
+                  </span>
                   {highlight.link ? (
                     <>
                       {highlight.description}{" "}
-                      <Link to={highlight.link} className>
+                      <Link to={highlight.link} className="text-one hover:underline">
                         {highlight.linkText}
                       </Link>
                     </>
