@@ -244,7 +244,7 @@ const Navbar = () => {
 
         {/* Desktop Navigation - large screens only */}
         <nav
-          className={`hidden lg:flex items-center text-md ${scrolled ? "gap-8 ml-4" : "gap-6 ml-8"
+          className={`hidden lg:flex items-center text-sm  text-bold ${scrolled ? "gap-8 ml-4" : "gap-6 ml-8"
             }`}
         >
           {nav_links.map((item, index) => (

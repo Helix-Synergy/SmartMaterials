@@ -45,7 +45,7 @@ const AboutUs = () => {
           ></Link>{" "}
         </p>
         <p className="text-justify my-2">  “Empowering Innovation and Industrial Excellence through Smart Materials, Nanotechnology, and Advanced Manufacturing”</p>
-        <Link to="/about-zerotrustai">
+        <Link to="/about-smartmaterials">
           <button className="flex bg-one text-white px-6 md:px-8 py-2 my-4 rounded-full text-sm md:text-base">
             Know More
           </button>
