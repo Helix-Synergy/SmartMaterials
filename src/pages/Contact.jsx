@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import axios from "axios";
 import { banner_style } from "../Styles/styles";
-import contact from "../assets/Images1/contact.png"
+
 const ContactForm = () => {
   const [form, setForm] = useState({
     firstName: "",
@@ -51,7 +51,7 @@ const ContactForm = () => {
       }
 
       const response = await axios.post(
-        "https://backend-code-6vqy.onrender.com/contact",
+        `${process.env.REACT_APP_BACKEND_URL}/contact`,
         formData, // <-- CHANGED: Send FormData instead of raw form object
         {
           // <-- CHANGED: Content-Type header to multipart/form-data
@@ -188,11 +188,11 @@ const ContactForm = () => {
     : "400px";
 
   return (
-    <div className="w-full 2xl:max-w-[1280px] mx-auto justify-center items-center text-center">
+    <div className="w-full  mx-auto justify-center items-center text-center">
       <div
         className={`${banner_style} w-full mx-auto event-partners-banner`}
         style={{
-          backgroundImage: `url(${contact})`,
+          backgroundImage: "url('https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=2029&auto=format&fit=crop')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

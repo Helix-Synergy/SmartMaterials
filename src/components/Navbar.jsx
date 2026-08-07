@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.webp";
 import "../Styles/GoogleTranslate.css";
 
 const Navbar = () => {
@@ -189,7 +189,7 @@ const Navbar = () => {
     //       )}
     //     </header>
     <header className="bg-white sticky top-0 z-50 w-full shadow-sm">
-      <div className="flex items-center justify-between px-4 md:px-12 py-2 md:py-2 transition-all duration-300 w-full 2xl:max-w-[1280px] mx-auto">
+      <div className="flex items-center justify-between px-4 md:px-12 py-2 md:py-2 transition-all duration-300 w-full  mx-auto">
         {/* Logo */}
         <div
           className={`transition-all duration-300 ${scrolled ? "h-20" : "h-20"
